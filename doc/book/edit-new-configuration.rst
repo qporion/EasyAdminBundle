@@ -531,6 +531,15 @@ change this value (globally or per entity):
                     max_results: 5
         # ...
 
+You can use the ``list.sort`` option to sort your autocomplete entity.
+
+.. code-block:: yaml
+
+    # app/config/config.yml
+    easy_admin:
+        list:
+            sort: ['label', 'ASC']
+
 Advanced Form Design
 --------------------
 
